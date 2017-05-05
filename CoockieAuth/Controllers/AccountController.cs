@@ -36,7 +36,6 @@ namespace CoockieAuth.Controllers
             var claims = new List<Claim>();
             claims.Add(new Claim(ClaimTypes.Email, models.Email));
             claims.Add(new Claim(ClaimTypes.Name, "Chandresh"));
-            claims.Add(new Claim(ClaimTypes.SerialNumber, "123456"));
             return claims;
         }
 
